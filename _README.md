@@ -1,6 +1,6 @@
 # Project Name
 
-> Spartecpies allows users to search for recipes online.  It gives users the abilty to search for recipes based off a number of a qualifiers (i.e. chicken, high-protein, vegan) which it then returns.  The user can then choose which recipes to add to their shopping list where all of the ingredients will be aggregated.    
+> Samuraicipies allows users to search for recipes online.  It gives users the abilty to search for recipes based off a number of a qualifiers (i.e. chicken, high-protein, vegan) which it then returns.  The user can then choose which recipes to add to their shopping list where all of the ingredients will be aggregated.    
 
 
 ## Team

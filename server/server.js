@@ -1,5 +1,6 @@
 var express = require('express');
 var db      = require('./db/config');
+var auth  = require('./config/auth');
 
 var app = express();
 var port = process.env.PORT || 8000;

@@ -11,9 +11,7 @@ var jwt = require('jwt-simple');
 module.exports = function(app, passport) {
 
   app.route('/')
-    .post(UserController.getUserList);
-
-  app.route('/')
+    .post(UserController.getUserList)
     .put(UserController.updateUserList);
 
   app.route('/register')
@@ -22,18 +20,20 @@ module.exports = function(app, passport) {
   app.route('/login')
     .post(UserController.login);
 
-  /**
-   * Initial Route for google Login
-   * Will redirect users to a google Auth page asking for access to the things in the scope array
-   * Saves new user to DB if successful
-   */
-  app.get('/auth/google', passport.authenticate('google', {
-    scope: ['profile', 'email']
-  }));
+  // *
+  //  * Initial Route for google Login
+  //  * Will redirect users to a google Auth page asking for access to the things in the scope array
+  //  * Saves new user to DB if successful
+   
+
+  app.get('/auth/google', 
+    passport.authenticate('google', {scope: ['email', 'profile']})
+  );
+
 
   /**
    * Not implemented
    */
   app.route('/auth/google/callback')
-    .post(UserController.googleCallback);
+    .get(UserController.googleCallback);
 };
