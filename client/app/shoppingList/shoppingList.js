@@ -1,3 +1,6 @@
+var request = require('request');
+var auth    = require('../../config/auth.js');
+
 angular.module('recipes')
   .controller('ShoppingListCtrl', ['$scope', '$rootScope', 'ShoppingList', function($scope, $rootScope, ShoppingList) {
 
@@ -30,4 +33,8 @@ angular.module('recipes')
       ShoppingList.removeFromList(id);
       getUserList();
     };
+
+
+
+    
   }]);
