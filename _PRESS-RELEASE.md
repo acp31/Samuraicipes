@@ -21,7 +21,7 @@ Once the project moves into development, the press release can be used as a touc
 ## Sub-Heading ##
    Anyone looking to simplify the process of managing their online recipes and shopping list.
 ## Summary ##
-    Spartecpies allows users to search for recipes online.  It gives users the abilty to search for recipes based off a number of a qualifiers (i.e. chicken, high-protein, vegan) which it then returns.  The user can then choose which recipes to add to their shopping list where all of the ingredients will be aggregated.    
+    Samuraicipies allows users to search for recipes online.  It gives users the abilty to search for recipes based off a number of a qualifiers (i.e. chicken, high-protein, vegan) which it then returns.  The user can then choose which recipes to add to their shopping list where all of the ingredients will be aggregated.    
 
 ## Problem ##
   Samuraicipies looks to solve the problem of managing a shopping list that is based off multiple recipes found online.  Many different tabs, many different lists, and a separate file to keep track of everything.   
