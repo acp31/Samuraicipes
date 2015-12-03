@@ -30,5 +30,4 @@ bower_components/
 client/lib/
 
 # Super Secret Stuff
-server/config/auth.js
 server/config/config.js
