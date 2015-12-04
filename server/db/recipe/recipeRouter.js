@@ -2,7 +2,7 @@ var request = require('request');
 var auth    = require('../../config/auth.js');
 
 module.exports = function(app) {
-
+ 
 	// Search for a query string
   app.route('/search/:query')
     .get(function(req, res, next) {
